@@ -17,6 +17,8 @@
 		B30DD07024D782B1006A5F19 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30DD06F24D782B1006A5F19 /* MapKit.framework */; };
 		B30DD07224D783AB006A5F19 /* BahenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30DD07124D783AB006A5F19 /* BahenTableViewController.swift */; };
 		B30DD07624D793F0006A5F19 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30DD07524D793F0006A5F19 /* LocationSearchTable.swift */; };
+		B30DD07A24D91CBC006A5F19 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30DD07924D91CBC006A5F19 /* Locations.swift */; };
+		B3DF7ED824DA2B4500E80658 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF7ED724DA2B4500E80658 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B30DD06F24D782B1006A5F19 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B30DD07124D783AB006A5F19 /* BahenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BahenTableViewController.swift; sourceTree = "<group>"; };
 		B30DD07524D793F0006A5F19 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		B30DD07924D91CBC006A5F19 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		B3DF7ED724DA2B4500E80658 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				924A237724D4EA51009C0ECC /* MyhalTableViewController.swift */,
 				B30DD07124D783AB006A5F19 /* BahenTableViewController.swift */,
 				B30DD07524D793F0006A5F19 /* LocationSearchTable.swift */,
+				B30DD07924D91CBC006A5F19 /* Locations.swift */,
+				B3DF7ED724DA2B4500E80658 /* LocationsView.swift */,
 			);
 			path = UofTwithME;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 				9226D60824D4DAB700F5040D /* ViewController.swift in Sources */,
 				B30DD07224D783AB006A5F19 /* BahenTableViewController.swift in Sources */,
 				9226D60424D4DAB700F5040D /* AppDelegate.swift in Sources */,
+				B30DD07A24D91CBC006A5F19 /* Locations.swift in Sources */,
 				B30DD07624D793F0006A5F19 /* LocationSearchTable.swift in Sources */,
+				B3DF7ED824DA2B4500E80658 /* LocationsView.swift in Sources */,
 				9226D60624D4DAB700F5040D /* SceneDelegate.swift in Sources */,
 				924A237824D4EA51009C0ECC /* MyhalTableViewController.swift in Sources */,
 			);
