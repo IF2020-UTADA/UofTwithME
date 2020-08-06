@@ -8,7 +8,7 @@
 import UIKit
 
 class MyhalTableViewController: UITableViewController {
-    let floors = ["Basement", "1st Floor", "2nd Floor", "3rd Floor", "4th Floor", "5th Floor", "6th Floor", "7th Floor", "8th Floor"]
+    let floors = ["Basement", "1st Floor", "2nd Floor"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,3 +86,18 @@ class MyhalTableViewController: UITableViewController {
     */
 
 }
+
+extension MyhalTableViewController{
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0{
+            performSegue(withIdentifier: "ToMyhalBasement", sender: self)
+        }
+        if indexPath.row == 1{
+            performSegue(withIdentifier: "ToMyhalFirstFloor", sender: self)
+        }
+        if indexPath.row == 2{
+            performSegue(withIdentifier: "ToMyhalSecondFloor", sender: self)
+        }
+    }
+}
+

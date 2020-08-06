@@ -8,7 +8,7 @@
 import UIKit
 
 class BahenTableViewController: UITableViewController {
-    let floors = ["Basement", "1st Floor", "2nd Floor", "3rd Floor"]
+    let floors = ["1st Floor", "2nd Floor", "3rd Floor"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -96,4 +96,18 @@ class BahenTableViewController: UITableViewController {
     }
     */
 
+}
+
+extension BahenTableViewController{
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0{
+            performSegue(withIdentifier: "ToBahenFirstFloor", sender: self)
+        }
+        if indexPath.row == 1{
+            performSegue(withIdentifier: "ToBahenSecondFloor", sender: self)
+        }
+        if indexPath.row == 2{
+            performSegue(withIdentifier: "ToBahenThirdFloor", sender: self)
+        }
+    }
 }
